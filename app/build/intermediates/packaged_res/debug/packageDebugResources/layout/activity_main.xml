@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -14,9 +15,10 @@
         android:id="@+id/bottomNavigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:menu="@menu/bottom_nav_menu"
-        app:itemIconTint="@color/bottom_nav_color"
-        app:itemTextColor="@color/bottom_nav_color"
+        android:background="@color/surface"
+        app:itemIconTint="@drawable/bottom_nav_color_selector"
+        app:itemTextColor="@drawable/bottom_nav_color_selector"
         app:labelVisibilityMode="labeled"
-        xmlns:app="http://schemas.android.com/apk/res-auto" />
+        app:menu="@menu/bottom_nav_menu" />
+
 </LinearLayout>

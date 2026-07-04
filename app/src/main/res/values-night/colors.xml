@@ -1,0 +1,33 @@
+<resources>
+    <!-- Every color name used in values-night/themes.xml must be defined here -->
+    <!-- No @color/ cross-references allowed — hex only -->
+
+    <!-- Brand (slightly lighter for dark bg readability) -->
+    <color name="primary">#6AADB2</color>
+    <color name="primary_dark">#44878C</color>
+    <color name="primary_darker">#00555A</color>
+
+    <!-- Surfaces -->
+    <color name="background">#00272C</color>
+    <color name="surface">#003B40</color>
+    <color name="surface_variant">#00555A</color>
+
+    <!-- Text -->
+    <color name="text_primary">#E8F2F3</color>
+    <color name="text_secondary">#9ECDD0</color>
+    <color name="text_hint">#6AADB2</color>
+    <color name="text_on_primary">#00272C</color>
+
+    <!-- Status (same across modes) -->
+    <color name="error">#E5484D</color>
+    <color name="pending">#E09B3D</color>
+    <color name="confirmed">#6AADB2</color>
+    <color name="completed">#2E9E6B</color>
+    <color name="cancelled">#E5484D</color>
+
+    <!-- Utility -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="divider">#1A6A70</color>
+    <color name="ripple">#2244878C</color>
+</resources>

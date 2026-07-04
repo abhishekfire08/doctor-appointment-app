@@ -13,6 +13,7 @@
         android:layout_height="50dp"
         android:layout_margin="12dp"
         android:hint="@string/search_doctor"
+            android:textColorHint="@color/text_hint"
         android:background="@drawable/bg_input"
         android:paddingHorizontal="16dp" />
 

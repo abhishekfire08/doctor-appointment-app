@@ -12,7 +12,12 @@ color error
 color pending
 color primary
 color primary_dark
+color primary_darker
+color ripple
 color surface
+color surface_variant
+color text_hint
+color text_on_primary
 color text_primary
 color text_secondary
 color white
@@ -21,9 +26,13 @@ dimen padding_large
 dimen padding_medium
 dimen padding_small
 drawable bg_card
+drawable bg_chip_selected
+drawable bg_chip_unselected
 drawable bg_input
 drawable bg_rounded_button
+drawable bg_rounded_button_outline
 drawable bg_status_chip
+drawable bottom_nav_color_selector
 drawable ic_nav_appointments
 drawable ic_nav_doctors
 drawable ic_nav_home

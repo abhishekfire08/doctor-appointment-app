@@ -1,0 +1,46 @@
+<resources>
+
+    <style name="Theme.DoctorApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Must reference @color/ resources for Material Components to resolve properly -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorSecondary">@color/primary</item>
+        <item name="colorSecondaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/text_primary</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorError">@color/error</item>
+
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+    </style>
+
+    <style name="Theme.DoctorApp.Splash" parent="Theme.DoctorApp">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/background</item>
+    </style>
+
+    <style name="FilterChip">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:paddingHorizontal">14dp</item>
+        <item name="android:paddingVertical">8dp</item>
+        <item name="android:background">@drawable/bg_chip_unselected</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="FilterChipSelected" parent="FilterChip">
+        <item name="android:background">@drawable/bg_chip_selected</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

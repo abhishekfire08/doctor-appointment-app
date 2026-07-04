@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="accent">#21C17C</color>
-    <color name="background">#F5F7FB</color>
+    <color name="accent">#44878C</color>
+    <color name="background">#F4F8F8</color>
     <color name="black">#000000</color>
     <color name="cancelled">#E5484D</color>
-    <color name="completed">#21C17C</color>
-    <color name="confirmed">#2F6FED</color>
-    <color name="divider">#E5E7EB</color>
+    <color name="completed">#2E9E6B</color>
+    <color name="confirmed">#44878C</color>
+    <color name="divider">#C8DCDD</color>
     <color name="error">#E5484D</color>
-    <color name="pending">#F59E0B</color>
-    <color name="primary">#2F6FED</color>
-    <color name="primary_dark">#1E4FBF</color>
+    <color name="pending">#E09B3D</color>
+    <color name="primary">#44878C</color>
+    <color name="primary_dark">#00555A</color>
+    <color name="primary_darker">#003B40</color>
+    <color name="ripple">#1444878C</color>
     <color name="surface">#FFFFFF</color>
-    <color name="text_primary">#1A1D29</color>
-    <color name="text_secondary">#6B7280</color>
+    <color name="surface_variant">#E8F2F3</color>
+    <color name="text_hint">#7AABAD</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_primary">#00272C</color>
+    <color name="text_secondary">#4A7276</color>
     <color name="white">#FFFFFF</color>
     <dimen name="corner_radius">12dp</dimen>
     <dimen name="padding_large">24dp</dimen>
@@ -55,23 +60,37 @@
         <item name="android:layout_margin">4dp</item>
         <item name="android:paddingHorizontal">14dp</item>
         <item name="android:paddingVertical">8dp</item>
-        <item name="android:background">@drawable/bg_input</item>
-        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:background">@drawable/bg_chip_unselected</item>
+        <item name="android:textColor">@color/primary_dark</item>
         <item name="android:textSize">12sp</item>
     </style>
     <style name="FilterChipSelected" parent="FilterChip">
-        <item name="android:background">@drawable/bg_rounded_button</item>
+        <item name="android:background">@drawable/bg_chip_selected</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:textStyle">bold</item>
     </style>
     <style name="Theme.DoctorApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryDark">@color/primary_dark</item>
-        <item name="colorAccent">@color/accent</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorSecondary">@color/primary</item>
+        <item name="colorSecondaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorError">@color/error</item>
+
         <item name="android:windowBackground">@color/background</item>
-        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:statusBarColor">@color/primary_darker</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
     </style>
     <style name="Theme.DoctorApp.Splash" parent="Theme.DoctorApp">
-        <item name="android:windowBackground">@color/primary</item>
+        <item name="android:windowBackground">@color/primary_darker</item>
+        <item name="android:statusBarColor">@color/primary_darker</item>
     </style>
 </resources>
