@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "com.example.doctorapp-debug-45:/layout_activity_doctor_profile.xml.flat",
+        "source": "com.example.doctorapp-main-47:/layout/activity_doctor_profile.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/layout_activity_splash.xml.flat",
+        "source": "com.example.doctorapp-main-47:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/layout_dialog_add_record.xml.flat",
+        "source": "com.example.doctorapp-main-47:/layout/dialog_add_record.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/layout_item_medical_record.xml.flat",
+        "source": "com.example.doctorapp-main-47:/layout/item_medical_record.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/drawable_ic_nav_records.xml.flat",
+        "source": "com.example.doctorapp-main-47:/drawable/ic_nav_records.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/drawable_bg_status_chip.xml.flat",
+        "source": "com.example.doctorapp-main-47:/drawable/bg_status_chip.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/drawable_ic_nav_home.xml.flat",
+        "source": "com.example.doctorapp-main-47:/drawable/ic_nav_home.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/layout_item_category.xml.flat",
+        "source": "com.example.doctorapp-main-47:/layout/item_category.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.doctorapp-main-47:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/drawable_ic_nav_profile.xml.flat",
+        "source": "com.example.doctorapp-main-47:/drawable/ic_nav_profile.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/layout_activity_main.xml.flat",
+        "source": "com.example.doctorapp-main-47:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/layout_activity_doctors_home.xml.flat",
+        "source": "com.example.doctorapp-main-47:/layout/activity_doctors_home.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/drawable_ic_placeholder_doctor.xml.flat",
+        "source": "com.example.doctorapp-main-47:/drawable/ic_placeholder_doctor.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/layout_activity_medical_records.xml.flat",
+        "source": "com.example.doctorapp-main-47:/layout/activity_medical_records.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/layout_activity_register.xml.flat",
+        "source": "com.example.doctorapp-main-47:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/layout_activity_login.xml.flat",
+        "source": "com.example.doctorapp-main-47:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.doctorapp-main-47:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/layout_item_appointment.xml.flat",
+        "source": "com.example.doctorapp-main-47:/layout/item_appointment.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/layout_activity_appointment_history.xml.flat",
+        "source": "com.example.doctorapp-main-47:/layout/activity_appointment_history.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/layout_activity_doctor_list.xml.flat",
+        "source": "com.example.doctorapp-main-47:/layout/activity_doctor_list.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/drawable_bg_card.xml.flat",
+        "source": "com.example.doctorapp-main-47:/drawable/bg_card.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/layout_item_notification.xml.flat",
+        "source": "com.example.doctorapp-main-47:/layout/item_notification.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/layout_activity_notifications.xml.flat",
+        "source": "com.example.doctorapp-main-47:/layout/activity_notifications.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/layout_activity_appointment_booking.xml.flat",
+        "source": "com.example.doctorapp-main-47:/layout/activity_appointment_booking.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/layout_activity_reviews.xml.flat",
+        "source": "com.example.doctorapp-main-47:/layout/activity_reviews.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/layout_fragment_dashboard.xml.flat",
+        "source": "com.example.doctorapp-main-47:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.doctorapp-main-47:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/drawable_bg_input.xml.flat",
+        "source": "com.example.doctorapp-main-47:/drawable/bg_input.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/drawable_ic_nav_doctors.xml.flat",
+        "source": "com.example.doctorapp-main-47:/drawable/ic_nav_doctors.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/layout_toolbar_default.xml.flat",
+        "source": "com.example.doctorapp-main-47:/layout/toolbar_default.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/layout_activity_forgot_password.xml.flat",
+        "source": "com.example.doctorapp-main-47:/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/layout_activity_profile.xml.flat",
+        "source": "com.example.doctorapp-main-47:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/layout_activity_doctor_categories.xml.flat",
+        "source": "com.example.doctorapp-main-47:/layout/activity_doctor_categories.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/color_bottom_nav_color.xml.flat",
+        "source": "com.example.doctorapp-main-47:/color/bottom_nav_color.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/layout_item_doctor.xml.flat",
+        "source": "com.example.doctorapp-main-47:/layout/item_doctor.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/drawable_ic_nav_appointments.xml.flat",
+        "source": "com.example.doctorapp-main-47:/drawable/ic_nav_appointments.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/drawable_bg_rounded_button.xml.flat",
+        "source": "com.example.doctorapp-main-47:/drawable/bg_rounded_button.xml"
+    },
+    {
+        "merged": "com.example.doctorapp-debug-45:/layout_item_review.xml.flat",
+        "source": "com.example.doctorapp-main-47:/layout/item_review.xml"
+    }
+]

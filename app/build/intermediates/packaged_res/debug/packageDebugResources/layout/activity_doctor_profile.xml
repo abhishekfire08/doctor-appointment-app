@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_default" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/imgDoctorProfile"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_placeholder_doctor" />
+
+            <TextView
+                android:id="@+id/tvProfileName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary"
+                android:layout_marginTop="12dp"
+                tools:text="Dr. Sharma"
+                xmlns:tools="http://schemas.android.com/tools" />
+
+            <TextView
+                android:id="@+id/tvProfileSpecialization"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/primary"
+                tools:text="Cardiologist \u2022 MD"
+                xmlns:tools="http://schemas.android.com/tools" />
+
+            <TextView
+                android:id="@+id/tvProfileHospital"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/text_secondary"
+                android:textSize="13sp"
+                tools:text="City Hospital"
+                xmlns:tools="http://schemas.android.com/tools" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="14dp">
+
+                <TextView android:id="@+id/tvProfileExperience"
+                    android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+                    android:gravity="center" android:textColor="@color/text_primary" android:textStyle="bold"
+                    tools:text="12 yrs" xmlns:tools="http://schemas.android.com/tools" />
+
+                <TextView android:id="@+id/tvProfileFee"
+                    android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+                    android:gravity="center" android:textColor="@color/text_primary" android:textStyle="bold"
+                    tools:text="\u20b9500" xmlns:tools="http://schemas.android.com/tools" />
+
+                <TextView android:id="@+id/tvProfileRating"
+                    android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+                    android:gravity="center" android:textColor="@color/pending" android:textStyle="bold"
+                    tools:text="\u2605 4.7" xmlns:tools="http://schemas.android.com/tools" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/btnBookAppointment"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/bg_rounded_button"
+                android:text="@string/book_appointment"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/btnAddFavorite"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_input"
+                android:text="@string/add_to_favourites"
+                android:textColor="@color/primary"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tvViewReviews"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="View Ratings &amp; Reviews \u2192"
+                android:textColor="@color/primary"
+                android:textStyle="bold"
+                android:padding="6dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

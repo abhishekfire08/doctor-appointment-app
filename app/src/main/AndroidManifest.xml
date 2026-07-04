@@ -27,6 +27,7 @@
 
         <activity android:name=".ui.main.MainActivity" android:exported="false" />
 
+        <activity android:name=".ui.doctor.DoctorsHomeActivity" android:exported="false" />
         <activity android:name=".ui.doctor.DoctorCategoriesActivity" android:exported="false" />
         <activity android:name=".ui.doctor.DoctorListActivity" android:exported="false" />
         <activity android:name=".ui.doctor.DoctorProfileActivity" android:exported="false" />

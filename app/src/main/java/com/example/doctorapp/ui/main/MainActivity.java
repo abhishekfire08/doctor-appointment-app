@@ -1,9 +1,11 @@
 package com.example.doctorapp.ui.main;
 
+import com.example.doctorapp.ui.doctor.DoctorsHomeActivity;
 import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.example.doctorapp.R;
@@ -20,14 +22,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         if (savedInstanceState == null) {
-            showFragment(new DashboardFragment());
+            loadFragment(new DashboardFragment());
         }
 
-        BottomNavigationView bottomNavigation = findViewById(R.id.bottomNavigation);
-        bottomNavigation.setOnItemSelectedListener(item -> {
+        BottomNavigationView bottomNav = findViewById(R.id.bottomNavigation);
+        bottomNav.setOnItemSelectedListener(item -> {
             int id = item.getItemId();
             if (id == R.id.nav_home) {
-                showFragment(new DashboardFragment());
+                loadFragment(new DashboardFragment());
+                return true;
+            } else if (id == R.id.nav_doctors) {
+                startActivity(new Intent(this, DoctorsHomeActivity.class));
                 return true;
             } else if (id == R.id.nav_appointments) {
                 startActivity(new Intent(this, AppointmentHistoryActivity.class));
@@ -43,9 +48,9 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private void showFragment(androidx.fragment.app.Fragment fragment) {
-        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.replace(R.id.fragmentContainer, fragment);
-        transaction.commit();
+    private void loadFragment(Fragment fragment) {
+        FragmentTransaction tx = getSupportFragmentManager().beginTransaction();
+        tx.replace(R.id.fragmentContainer, fragment);
+        tx.commit();
     }
 }

@@ -51,6 +51,9 @@
             android:name="com.example.doctorapp.ui.main.MainActivity"
             android:exported="false" />
         <activity
+            android:name="com.example.doctorapp.ui.doctor.DoctorsHomeActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.doctorapp.ui.doctor.DoctorCategoriesActivity"
             android:exported="false" />
         <activity
@@ -87,6 +90,9 @@
                 android:value="androidx.startup" />
             <meta-data
                 android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="okhttp3.internal.platform.PlatformInitializer"
                 android:value="androidx.startup" />
             <meta-data
                 android:name="androidx.profileinstaller.ProfileInstallerInitializer"

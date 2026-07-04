@@ -21,4 +21,10 @@
         <item name="android:textColor">@color/text_secondary</item>
         <item name="android:textSize">12sp</item>
     </style>
+
+    <style name="FilterChipSelected" parent="FilterChip">
+        <item name="android:background">@drawable/bg_rounded_button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>

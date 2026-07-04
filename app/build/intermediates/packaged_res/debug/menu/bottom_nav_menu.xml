@@ -1,6 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/nav_home" android:title="Home" android:icon="@drawable/ic_placeholder_doctor" />
-    <item android:id="@+id/nav_appointments" android:title="Appointments" android:icon="@drawable/ic_placeholder_doctor" />
-    <item android:id="@+id/nav_records" android:title="Records" android:icon="@drawable/ic_placeholder_doctor" />
-    <item android:id="@+id/nav_profile" android:title="Profile" android:icon="@drawable/ic_placeholder_doctor" />
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/ic_nav_home" />
+
+    <item
+        android:id="@+id/nav_doctors"
+        android:title="Doctors"
+        android:icon="@drawable/ic_nav_doctors" />
+
+    <item
+        android:id="@+id/nav_appointments"
+        android:title="Appointments"
+        android:icon="@drawable/ic_nav_appointments" />
+
+    <item
+        android:id="@+id/nav_records"
+        android:title="Records"
+        android:icon="@drawable/ic_nav_records" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_nav_profile" />
+
 </menu>
