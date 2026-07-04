@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_default" />
+
+    <EditText
+        android:id="@+id/etSearchDoctor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="12dp"
+        android:hint="@string/search_doctor"
+        android:background="@drawable/bg_input"
+        android:paddingHorizontal="16dp" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="8dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/chipAvailableToday"
+                style="@style/FilterChip"
+                android:text="Available Today" />
+
+            <TextView
+                android:id="@+id/chipExperienced"
+                style="@style/FilterChip"
+                android:text="Experience > 5 Yrs" />
+
+            <TextView
+                android:id="@+id/chipLowFee"
+                style="@style/FilterChip"
+                android:text="Low Fee" />
+
+            <TextView
+                android:id="@+id/chipTopRated"
+                style="@style/FilterChip"
+                android:text="Top Rated" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshDoctors"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvDoctors"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="6dp" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

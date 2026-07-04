@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#21C17C</color>
+    <color name="background">#F5F7FB</color>
+    <color name="black">#000000</color>
+    <color name="cancelled">#E5484D</color>
+    <color name="completed">#21C17C</color>
+    <color name="confirmed">#2F6FED</color>
+    <color name="divider">#E5E7EB</color>
+    <color name="error">#E5484D</color>
+    <color name="pending">#F59E0B</color>
+    <color name="primary">#2F6FED</color>
+    <color name="primary_dark">#1E4FBF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_primary">#1A1D29</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="corner_radius">12dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <string name="add_to_favourites">Add To Favourites</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="app_name">Doctor Appointment</string>
+    <string name="book_appointment">Book Appointment</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm_appointment">Confirm Appointment</string>
+    <string name="dob">Date of Birth</string>
+    <string name="doctor_categories">Doctor Categories</string>
+    <string name="dont_have_account">Don\'t have an account? Register</string>
+    <string name="email">Email</string>
+    <string name="favorite_doctors">Favorite Doctors</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="full_name">Full Name</string>
+    <string name="gender">Gender</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="medical_records">Medical Records</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="reschedule">Reschedule</string>
+    <string name="save">Save</string>
+    <string name="search_doctor">Search doctor, specialization, hospital</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_time_slot">Select Time Slot</string>
+    <string name="submit">Submit</string>
+    <string name="total_appointments">Total Appointments</string>
+    <string name="upcoming_appointment">Upcoming Appointment</string>
+    <string name="upload_report">Upload Report</string>
+    <string name="write_review">Write a review</string>
+    <style name="FilterChip">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:paddingHorizontal">14dp</item>
+        <item name="android:paddingVertical">8dp</item>
+        <item name="android:background">@drawable/bg_input</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="Theme.DoctorApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+    </style>
+    <style name="Theme.DoctorApp.Splash" parent="Theme.DoctorApp">
+        <item name="android:windowBackground">@color/primary</item>
+    </style>
+</resources>

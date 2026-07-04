@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Doctor Appointment</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="gender">Gender</string>
+    <string name="dob">Date of Birth</string>
+    <string name="dont_have_account">Don\'t have an account? Register</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="search_doctor">Search doctor, specialization, hospital</string>
+    <string name="upcoming_appointment">Upcoming Appointment</string>
+    <string name="total_appointments">Total Appointments</string>
+    <string name="medical_records">Medical Records</string>
+    <string name="favorite_doctors">Favorite Doctors</string>
+    <string name="doctor_categories">Doctor Categories</string>
+    <string name="book_appointment">Book Appointment</string>
+    <string name="add_to_favourites">Add To Favourites</string>
+    <string name="confirm_appointment">Confirm Appointment</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_time_slot">Select Time Slot</string>
+    <string name="logout">Logout</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="reschedule">Reschedule</string>
+    <string name="write_review">Write a review</string>
+    <string name="submit">Submit</string>
+    <string name="upload_report">Upload Report</string>
+</resources>
